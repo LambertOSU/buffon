@@ -51,7 +51,7 @@ def main():
     # Intitalize figure   
     f, (ax1,ax2,ax3) = plt.subplots(1,3, figsize = (24,8))
       
-    # Define number of needles per trail for the first figure.
+    # Define number of needles per trial for the first figure.
     num_drops = [10, 100, 1000]
 
     # Loop through num_drops
@@ -81,7 +81,7 @@ def main():
     # Replot last distribution for scale on second histogram
     ax2.hist(estimates,facecolor = t20[k])
 
-    # Define number of needles per trail for the second figure.
+    # Define number of needles per trial for the second figure.
     num_drops = [10000, 100000]    
 
     # Loop through num_drops
