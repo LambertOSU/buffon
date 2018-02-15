@@ -1,6 +1,6 @@
 # Buffon's Needle
 
-A collection of simulations of the Buffon's Needle problem.
+A collection of Monte Carlo simulations of the Buffon's Needle problem.
 
 1. <b>buffon_with_loops.py</b>
 
